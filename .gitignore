@@ -1,0 +1,6 @@
+.idea/*
+*.swp
+tools/lapps_installer.py
+tools/__init__.py
+tools/__main__.py
+tools/tools.py
