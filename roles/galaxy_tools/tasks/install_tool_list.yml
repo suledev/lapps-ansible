@@ -1,7 +1,8 @@
-- set_fact: galaxy_tools_tool_list="{{ item }}"
+- set_fact: galaxy_tools_tool_list= "files/lapps_tool_list.yml"
+#"{{ item }}"
 
-- name: get tool list
-  include_vars: "{{ galaxy_tools_tool_list }}"
+#- name: get tool list
+  #include_vars: "{{ galaxy_tools_tool_list }}"
 
 - name: Install Tool Shed tools
   command: chdir={{ galaxy_tools_base_dir }} {{ galaxy_tools_base_dir }}/venv/bin/python install_tool_shed_tools.py -y "{{ item | to_nice_yaml }}" -a {{ galaxy_tools_api_key }} -g {{ galaxy_tools_galaxy_instance_url }} #"
