@@ -1,4 +1,4 @@
-api_key:
-galaxy_instance:
+api_key: <Galaxy Admin user API key>
+galaxy_instance: <IP address for target Galaxy instance>
 tools:
 -
