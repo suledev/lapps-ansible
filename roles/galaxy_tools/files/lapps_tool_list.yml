@@ -1,5 +1,5 @@
-api_key: <Galaxy Admin user API key>
-galaxy_instance: <IP address for target Galaxy instance>
+api_key: 2172207ea557d6a22388787e473e06b6
+galaxy_instance: 127.0.0.1:8080
 tools:
 - name: 'lapps_datatypes_1_0_0'
   owner: 'ksuderman'
