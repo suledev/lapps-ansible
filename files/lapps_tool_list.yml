@@ -1,4 +1,38 @@
 api_key: <Galaxy Admin user API key>
 galaxy_instance: <IP address for target Galaxy instance>
 tools:
--
+- name: 'lapps_datatypes_1_0_0'
+  owner: 'ksuderman'
+  tool_panel_section_id: 'nlp'
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: 'https://testtoolshed.g2.bx.psu.edu/'
+  revisions:
+  - '293e96d7e4a0' # version 1.0.0
+- name: 'lapps_dockertypes_1_0_0'
+  owner: 'ksuderman'
+  tool_panel_section_id: 'nlp'
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: 'https://testtoolshed.g2.bx.psu.edu/'
+  revisions:
+  - '11e49ce5efd2' # version 1.0.0
+- name: 'lapps_gate_2_0_0'
+  owner: 'ksuderman'
+  tool_panel_section_id: 'nlp'
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: 'https://testtoolshed.g2.bx.psu.edu/'
+  revisions:
+  - 'aab85fd553ff' # version 2.0.0
+- name: 'lapps_stanford_2_0_0'
+  owner: 'ksuderman'
+  tool_panel_section_id: 'nlp'
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: 'https://testtoolshed.g2.bx.psu.edu/'
+  revisions:
+  - '9260157ddfa3' # version 2.0.0
+- name: 'package_lsdsl_2_2_1'
+  owner: 'ksuderman'
+  tool_panel_section_id: 'nlp'
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: 'https://testtoolshed.g2.bx.psu.edu/'
+  revisions:
+  - 'bdcf6e97cae8' # version 2.2.1
