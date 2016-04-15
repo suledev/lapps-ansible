@@ -1,0 +1,7 @@
+- hosts: localhost
+  gather_facts: False
+  connection: local
+  vars:
+    local_galaxy_dir:
+  roles:
+    - galaxy_docker

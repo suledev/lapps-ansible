@@ -1,0 +1,14 @@
+- set_fact: galaxy_directory = "~/Dropbox/galaxy-local/"
+
+
+
+
+- name: Cloning Galaxy repo
+  command: git clone https://github.com/galaxyproject/galaxy.git
+
+- name: Stripping tools
+  command: python ./roles/galaxy_vm/files/strip_tools.py
+
+- name: Run galaxy setup script
+  command: sh ./galaxy/run.sh
+
