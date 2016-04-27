@@ -9,6 +9,5 @@
 - name: Stripping tools
   command: python ./roles/galaxy_vm/files/strip_tools.py
 
-- name: Run galaxy setup script
-  command: sh ./galaxy/run.sh
+
 
