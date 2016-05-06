@@ -4,6 +4,6 @@
   vars:
       galaxy_tools_tool_list_files: [ "files/lapps_tool_list.yaml" ]
       galaxy_tools_galaxy_instance_url: http://127.0.0.1:8080/
-      galaxy_tools_api_key: 2172207ea557d6a22388787e473e06b6
+      galaxy_tools_api_key: 8e629cb8d4dcf1d7175fa336441d5001
   roles:
       - galaxy_tools

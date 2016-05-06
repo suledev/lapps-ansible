@@ -1,4 +1,4 @@
-api_key: 2172207ea557d6a22388787e473e06b6
+api_key: 8e629cb8d4dcf1d7175fa336441d5001
 galaxy_instance: 127.0.0.1:8080
 tools:
 - name: 'lapps_datatypes_1_0_0'
