@@ -116,7 +116,7 @@ def log_tool_install_success(tool, start, end, installed_tools):
               (tool['name'], str(end - start), tool['revision']))
 
 
-def load_input_file(tool_list_file='tool_list.yaml'):
+def load_input_file(tool_list_file='lapps_tool_list.yaml'):
     """
     Load YAML from the `tool_list_file` and return a dict with the content.
     """
