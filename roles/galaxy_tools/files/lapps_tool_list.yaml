@@ -1,0 +1,28 @@
+api_key: 8e629cb8d4dcf1d7175fa336441d5001
+galaxy_instance: 127.0.0.1:8080
+tools:
+- name: lapps_datatypes_1_0_0
+  owner: ksuderman
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
+- name: lapps_dockertypes_1_0_0
+  owner: ksuderman
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
+- name: lapps_gate_2_0_0
+  owner: ksuderman
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
+- name: lapps_stanford_2_0_0
+  owner: ksuderman
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
+- name: package_lsdsl_2_2_1
+  owner: ksuderman
+  tool_panel_section_label: 'lapps'
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+
