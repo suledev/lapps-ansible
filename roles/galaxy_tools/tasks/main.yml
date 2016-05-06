@@ -1,2 +1,1 @@
 - include: lapps-tools.yml
-  #when: galaxy_tools_install_tools

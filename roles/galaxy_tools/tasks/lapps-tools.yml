@@ -9,7 +9,6 @@
 - name: Place the tool management script
   copy: src=install_tool_shed_tools.py dest={{ galaxy_tools_base_dir }}/install_tool_shed_tools.py
 
-- include: install_tool_list.yml
-  with_items:
-  - galaxy_tools_tool_list="files/lapps_tools_list.yml"
 
+- include: install_tool_list.yml
+  with_items: '{{ galaxy_tools_tool_list_files }}'
